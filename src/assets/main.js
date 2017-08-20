@@ -21,8 +21,6 @@ function guess() {
     } else {
       setMessage("Incorrect, try again.");
     }
-
-
 }
 
 
@@ -63,8 +61,8 @@ function getResults(input) {
   if(input == answer.value) {
     return true;
      } return false;
-
 }
+
 function showAnswer(success) {
   let code = document.getElementById("code");
   if(success) {
