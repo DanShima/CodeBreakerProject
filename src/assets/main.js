@@ -21,10 +21,7 @@ function guess() {
     } else {
       setMessage("Incorrect, try again.");
     }
-
-
 }
-
 
 function setHiddenFields() {
   answer.value = Math.floor(Math.random().10000).toString();
@@ -63,8 +60,8 @@ function getResults(input) {
   if(input == answer.value) {
     return true;
      } return false;
-
 }
+
 function showAnswer(success) {
   let code = document.getElementById("code");
   if(success) {
